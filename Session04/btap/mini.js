@@ -27,7 +27,7 @@ while (loginAttempts < 3) {
 
 if (!isAuthenticated) {
   alert("Tài khoản đã bị khóa!");
-  throw new Error("Kết thúc chương trình");
+ 
 }
 
 let choice;
@@ -145,3 +145,4 @@ Nhập lựa chọn (1-5):
   }
 
 } while (choice !== 5);
+
